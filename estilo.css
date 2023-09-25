@@ -12,6 +12,11 @@
     opacity: 100%;
 }
 .city{
-    width: 50%;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+}
+.cbody{
+    a: center;
 }
     
