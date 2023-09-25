@@ -12,11 +12,9 @@
     opacity: 100%;
 }
 .city{
-    width: 300px;
-    height: 200px;
-    align-items: center;
+    max-width: 100%;
+    height: 500px; 
 }
-.cbody{
-    a: center;
+.spc{
+    margin-left: 2rem;
 }
-    
