@@ -96,3 +96,25 @@ nav{
 .imgtur{
     width: 500px ;
 }
+
+.tur1{
+    align-items: center;
+    
+}
+
+.container-tur{
+    align-items: center;
+
+}
+
+.text-tur{
+    margin-top: ;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.alhambra{
+    display: flex;
+    flex-direction: row;
+}
