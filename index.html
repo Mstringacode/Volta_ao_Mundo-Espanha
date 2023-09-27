@@ -7,53 +7,56 @@
     <link rel="stylesheet" href="estilo.css">
     <title>Espanha</title>
 </head>
-<body class="bg-warning">
-    <nav class="navbar navbar-expand-lg " style="background-color: red">
-        <div class="container-fluid">
-            <img src="./imagens/flag-spain-icon.png" class="img-fluid" alt="">
-            <a class="navbar-brand" href="#">Espanha</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Historia</a>
-                <a class="nav-link" href="#">Cultura</a>
-                <a class="nav-link" href="#">Politica</a>
-                <a class="nav-link disabled" aria-disabled="true">Economia</a>
-              </div>
-            </div>
-        </div>
-    </nav>
-    <main class="container">
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./imagens/Madrid.jpg" class="d-block w-100 city" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./imagens/Cavalgada-e-Tradição-na-Espanha-04.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./imagens/Cavalgada-e-Tradição-na-Espanha-04.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<body >
+  <header>
+    <nav>
+  
+      <a class="logo" href="">Espanha</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
+      <ul class="nav-list">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Gastrinimia</a></li>
+        <li><a href="">Cultura e Arte</a></li>
+        <li><a href="">Turismo</a></li>
+        <li><a href="">informações</a></li>
 
-      <div class="container d-flex ">
+      </ul>
+    </nav>
+  </header>
+   
+  <main class="container mt-5">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagens/Madrid.jpg" class="d-block w-100 city" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagens/Cavalgada-e-Tradição-na-Espanha-04.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagens/Cavalgada-e-Tradição-na-Espanha-04.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+      <div class="container d-flex mt-3 ">
         <div class="card mt-5" style="width: 18rem;">
           <img src="./imagens/gast.jpeg" class="card-img-top" alt="pri">
           <div class="card-body">
@@ -92,9 +95,9 @@
       
       </div>
         
+  </main>
+  <script src="./mobile-navbar.js"></script>
   
-      
-    </main>
 
 
 </body>
