@@ -8,46 +8,52 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg " style="background-color: red">
-        <div class="container-fluid">
-            <img src="./imagens/flag-spain-icon.png" class="img-fluid" alt="">
-            <a class="navbar-brand" href="#">Espanha</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Historia</a>
-                <a class="nav-link" href="#">Cultura</a>
-                <a class="nav-link" href="#">Politica</a>
-                <a class="nav-link disabled" aria-disabled="true">Economia</a>
+    <header class="nav-esp">
+        <nav class="navbar navbar-expand-lg " style="background-color: #FF4500">
+          <div class="container-fluid">
+              <div class="icon">
+                  <img src="./imagens/flag-spain-icon.png" class="img-fluid" alt="">
               </div>
+              <a class="navbar-brand nav-text" href="#">Espanha</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link nav-text" href="./index.html">Inicio</a>
+                  <a class="nav-link nav-text" aria-current="page" href="./gastronomia.html">Gastronomia</a>
+                  <a class="nav-link nav-text" href="./Cultura.html">Cultura</a>
+                  <a class="nav-link nav-text" href="./turismo.html">Turismo</a>
+                  <a class="nav-link nav-text" href="./info.html">Informações</a>
+                </div>
+              </div>
+          </div>
+        </nav>
+      </header>
+    <main class="container d-flex">
+        <div class="container mt-5 d-block ">
+            <div class="container">      
+                <h1 class="texto-titulo-tur">Alhambra, Granada</h1>
+                <div class="container">
+                    <img src="./imagens/alhambra.jpeg" class="rounded float-start imgtur" alt="...">
+                    <p class="text-tur">A Alhambra, localizada em Granada, Espanha, é uma das jóias arquitetônicas mais bem preservadas do mundo islâmico medieval. Construída no século XIII, esta fortaleza e palácio mourisco encanta os visitantes com sua arquitetura de tirar o fôlego, jardins exuberantes e rica história.</p>
+                </div>
+                <div class="container mg-tur" >
+                    <h1 class="texto-titulo-tur ">Basílica da Sagrada Família</h1>
+                    <img src="./imagens/igreja.jpeg" class="rounded float-start imgtur" alt="...">
+                    <p class="text-tur">Templo Expiatório da Sagrada Família, também conhecido simplesmente como Sagrada Família, é um grande templo católico da cidade de Barcelona, Catalunha, Espanha, desenhado pelo arquiteto catalão Antoni Gaudí, e considerado por muitos críticos como a sua obra-prima e expoente da arquitetura modernista catalã.</p>
+                </div>
+                <div class="container mg-tur2">
+                    <h1 class="texto-titulo-tur">La Graciosa (Ilha)</h1>
+                    <img src="./imagens/ilhas.jpg" class="rounded float-start imgtur " alt="...">
+                    <p class="text-tur">A ilha La Graciosa, em conjunto com os ilhéus de Montaña Clara, Roque del Este, Roque del Oeste e Alegranza, constitui o chamado "arquipélago Chinijo", um conjunto de pequenas ilhas sitas no extremo nordeste das Canárias.</p>
+                </div>    
             </div>
-        </div>
-    </nav>
-    <main>
-    <div class="container mt-5 ">
-        <div class="container-tur">      
-            <h1>Alhambra, Granada</h1>
-            <div class="alhambra">
-                <img src="./imagens/alhambra.jpeg" class="rounded float-start imgtur" alt="...">
-                <p class="text-tur">A Alhambra, localizada em Granada, Espanha, é uma das jóias arquitetônicas mais bem preservadas do mundo islâmico medieval. Construída no século XIII, esta fortaleza e palácio mourisco encanta os visitantes com sua arquitetura de tirar o fôlego, jardins exuberantes e rica história.</p>
-            </div>
-            </div>
-            
-        <div class="" >
-            <h1>Basílica da Sagrada Família</h1>
-            <img src="./imagens/igreja.jpeg" class="rounded float-start imgtur" alt="...">
-            <p>Templo Expiatório da Sagrada Família, também conhecido simplesmente como Sagrada Família, é um grande templo católico da cidade de Barcelona, Catalunha, Espanha, desenhado pelo arquiteto catalão Antoni Gaudí, e considerado por muitos críticos como a sua obra-prima e expoente da arquitetura modernista catalã.</p>
-        </div>
-        <div class="">
-            <h1>La Graciosa (Ilha)</h1>
-            <img src="./imagens/ilhas.jpg" class="rounded float-start imgtur" alt="...">
-            <p>A ilha La Graciosa, em conjunto com os ilhéus de Montaña Clara, Roque del Este, Roque del Oeste e Alegranza, constitui o chamado "arquipélago Chinijo", um conjunto de pequenas ilhas sitas no extremo nordeste das Canárias.</p>
-
-        </div>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
 
     </main>
 </body>
