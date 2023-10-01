@@ -8,29 +8,41 @@
     <title>Espanha</title>
 </head>
 <body >
-  <header>
-    <nav>
-  
-      <a class="logo" href="">Espanha</a>
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+  <header class="nav-esp">
+    <nav class="navbar navbar-expand-lg " style="background-color: #FF4500">
+      <div class="container-fluid">
+          <div class="icon">
+              <img src="./imagens/flag-spain-icon.png" class="img-fluid" alt="">
+          </div>
+          <a class="navbar-brand nav-text" href="#">Espanha</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link nav-text" href="#">Inicio</a>
+              <a class="nav-link nav-text" aria-current="page" href="#">Gastronomia</a>
+              <a class="nav-link nav-text" href="#">Cultura e arte</a>
+              <a class="nav-link nav-text" href="#">Turismo</a>
+              <a class="nav-link nav-text" href="#">Informações</a>
+            </div>
+          </div>
       </div>
-      <ul class="nav-list">
-        <li><a href="">Inicio</a></li>
-        <li><a href="">Gastrinimia</a></li>
-        <li><a href="">Cultura e Arte</a></li>
-        <li><a href="">Turismo</a></li>
-        <li><a href="">informações</a></li>
-
-      </ul>
     </nav>
   </header>
    
-  <main class="container mt-5">
+  <main class=" container-index">
 
-    <div class="cardin card-1">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active car-img">
+          <img src="./imagens/cidade.jpg" class=" d-flex  w-100" alt="...">
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="cardin cardin">
       <!--card 1--->
       <div class="card-header">
         <img src="./imagens/gast.jpeg" class="card-img" alt="">
@@ -39,7 +51,6 @@
       
       <!--card body--->
       <div class="card-body">
-        <h3 class="card-ind">Espanha</h3>
         <h2 class="card-titulo">Gastronomia</h2>
         <p class="card-texto">A culinária espanhola é conhecida por sua diversidade regional e pelo uso de ingredientes frescos e saborosos.</p>
       </div>
@@ -47,7 +58,67 @@
 
       <!--card footer--->
       <div class="card-footer">
-        <a href=""> Vaer mais</a>
+        <a href="" class="fot-a"> Ver mais</a>
+      </div>
+      <!--card footer--->
+    </div>
+    <div class="cardin card-2">
+      <!--card 1--->
+      <div class="card-header">
+        <img src="./imagens/igreja.jpeg" class="card-img" alt="">
+      </div>
+      <!--card header--->
+      
+      <!--card body--->
+      <div class="card-body">
+        <h2 class="card-titulo">Cultura e arte</h2>
+        <p class="card-texto">Conhecer a Espanha significa viajar no tempo e surpreender-se com monumentos que vão desde um imponente aqueduto do antigo império romano até castelos medievais ou a arquitetura mais vanguardista. Séculos de mistura de culturas fizeram da Espanha um país fascinante, com uma das heranças artísticas mais impressionantes do mundo.</p>
+      </div>
+      <!--card body--->
+
+      <!--card footer--->
+      <div class="card-footer">
+        <a href="" class="fot-a"> Ver mais</a>
+      </div>
+      <!--card footer--->
+    </div>
+    <div class="cardin card-3">
+      <!--card 1--->
+      <div class="card-header">
+        <img src="./imagens/gast.jpeg" class="card-img" alt="">
+      </div>
+      <!--card header--->
+      
+      <!--card body--->
+      <div class="card-body">
+        <h2 class="card-titulo">Turismo</h2>
+        <p class="card-texto">A Espanha é um país repleto de atrações turísticas diversas, desde praias deslumbrantes até cidades históricas e vibrantes. Aqui está um pequeno guia turístico da Espanha, destacando alguns dos lugares mais populares e imperdíveis</p>
+      </div>
+      <!--card body--->
+
+      <!--card footer--->
+      <div class="card-footer">
+        <a href="" class="fot-a"> Ver mais</a>
+      </div>
+      <!--card footer--->
+    </div>
+    <div class="cardin card-4">
+      <!--card 1--->
+      <div class="card-header">
+        <img src="./imagens/gast.jpeg" class="card-img" alt="">
+      </div>
+      <!--card header--->
+      
+      <!--card body--->
+      <div class="card-body">
+        <h2 class="card-titulo">Informações</h2>
+        <p class="card-texto">Na Espanha, todas as boas histórias são possíveis. Comece a sua conhecendo alguns dados e curiosidades deste lugar que pode ser seu próximo destino de férias.</p>
+      </div>
+      <!--card body--->
+
+      <!--card footer--->
+      <div class="card-footer">
+        <a href="" class="fot-a"> Ver mais</a>
       </div>
       <!--card footer--->
     </div>
@@ -56,7 +127,6 @@
   
   
   </main>
-  <script src="./mobile-navbar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 

@@ -5,75 +5,34 @@
 body{
     background-color: #F5FFFA;
 }
-a{
+.nav-esp{
+    background-color: red;
+}
+.nav-text{
     color: #fff;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.5s;
 }
-a:hover{
+.nav-text:hover{
     opacity: 0.7;
-}
-.logo{
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: red ;
-    height: 8vh;
-}
-.nav-list{
-    list-style: none;
-    display: flex;
+    color:#ffe866;
 }
 
-.nav-list li{
-    letter-spacing: 3px;
-    margin-left: 32px;
-}
-.mobile-menu{
-    display: none;
-    cursor: pointer;
-}
-.mobile-menu div{
-    width: 32px;
-    height: 2px;
-    background-color: #fff;
-    margin: 8px;
+.container-index{
+    display: flex;
+    width: 100%;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
 }
 
-@media(max-width:999px){
-    body{
-        overflow-x:hidden ;
-    }
-    .nav-list{
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background-color: red;
-        flex-direction: column;
-        justify-content: space-around;
-        transform: translateX(100%);
-    }
-    
-    .nav-list li{
-        margin-left: 0;
-        opacity: 0;
-    }
-    .mobile-menu{
-        display: block;
-    }
+/*img carousel*/
+.car-img{
+    height: 700px;
 }
-.nav-list.active{
-    transform: translateX(0);
-}
+
 /* card */
-.card-1{
+.cardin{
    width: 300px;
    height: 460px;
    margin: 25px;
@@ -105,9 +64,29 @@ nav{
     margin: 10px 0;
 }
 .card-titulo{
-    
+    font-size: 12px;
+    margin: 15px 0;
+}
+.card-texto{
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+
+}
+.card-footer{
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
 }
 
+.fot-a{
+    color: #fff;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
 
 .containerin{
     display: flex;
@@ -162,4 +141,45 @@ nav{
 .alhambra{
     display: flex;
     flex-direction: row;
+}
+
+/*pagina info*/
+.texto-info{
+    color: red;
+    font-size: 50px;
+    font-family:cursive;
+    text-shadow: 2px 2px  black;
+}
+
+
+.texto-info2{
+    margin-top: 50px;
+    color: red;
+    font-size: 40px;
+    font-family: cursive;
+    text-shadow: 2px 2px  black;
+}
+
+.img-info{
+    height: 500px; 
+}
+/*página cultura*/
+
+.img-cultura{
+    height: 200px;
+}
+
+.mg-cult{
+    margin-top: 150px;
+}    
+
+.texto-titulo-cult{
+    color: red;
+    font-family: cursive;
+    text-shadow: 1px 2px black;
+    margin-top: 30px;
+}
+.text-cult{
+    font-size: 20px;
+    
 }
